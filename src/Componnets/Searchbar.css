@@ -1,0 +1,22 @@
+.searchbar {
+  width: 60%;
+}
+.searchform {
+}
+.searchform label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  height: 30px;
+}
+.searchform label span {
+  margin-left: 10px;
+}
+.searchform label input {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+}

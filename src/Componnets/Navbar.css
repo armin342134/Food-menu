@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(7, 250, 7);
+  padding: 20px;
+  color: white;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navbar a.brand {
+  text-decoration: none;
+  color: white;
+  margin-right: auto;
+}
+
+.navbar a:last-child {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.navbar a:last-child:hover {
+  background-color: white;
+  color: #333;
+}
